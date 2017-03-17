@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="InputView">
+        <attr name="isShow"  format="boolean"></attr>
+        <!--字体大小-->
+        <attr name="textSize" format="dimension" />
+        <!--字体颜色-->
+        <attr name="textColor" format="reference"></attr>
+        <!--分割线大小-->
+        <attr name="segment_line_width"  format="dimension"></attr>
+        <!--分割线颜色-->
+        <attr name="segment_line_color"  format="reference"></attr>
+        <!--背景色-->
+        <attr name="bgColor" format="reference"></attr>
+        <!--输入框的个数-->
+        <attr name="length" format="integer"></attr>
+
+
+    </declare-styleable>
+
+</resources>
